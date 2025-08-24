@@ -24,15 +24,15 @@ async def obtener_trm(pesos: str = Form(...)):
 
 ## Actividad MySQL ##
 
-# conexión a MySQL
+# Conexión a MySQL
 def conexion_mysql():
     try:
         conexion = mysql.connector.connect(
-            host=os.getenv("MYSQLHOST"),
-            user=os.getenv("MYSQLUSER"),
-            password=os.getenv("MYSQLPASSWORD"),
-            port=os.getenv("MYSQLPORT"),
-            database=os.getenv("MYSQLDATABASE"),
+            host="maglev.proxy.rlwy.net",
+            user="root",
+            password="tHjaliBkKdJUIBMqEkleuBKEJLvDIKDJ",
+            port=20228,
+            database="railway",
         )
         return conexion
     except Exception as e:
