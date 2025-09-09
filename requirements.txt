@@ -7,3 +7,10 @@ pydantic
 typing
 pymongo
 motor
+openai
+spacy
+passlib
+pyjwt
+python-jose
+python-multipart
+bcrypt
