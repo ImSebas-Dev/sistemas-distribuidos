@@ -14,3 +14,6 @@ pyjwt
 python-jose
 python-multipart
 bcrypt
+beautifulsoup4
+pandas
+openpyxl
